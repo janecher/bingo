@@ -1,19 +1,20 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+import PropTypes from "prop-types";
 
-function Cell(){
+function Cell(props){
 
-  const [color, setColor] = useState("black");
+  const [cellColor, setCellColor] = useState("black");
 
   const handleCellClick = (cell, number) => {
     if(cell === number)
     {
-      setColor("green");
-    }
+      setCellColor("white");
+    } 
   }
 
   return(
     <React.Fragment>
-      <div style={{color: color}} onClick ={handleCellClick(props.cellValue, props.displayNumber)}>{props.cellValue}</div>
+      <div style={{color: cellColor}} onClick ={() => handleCellClick(props.cellValue, props.displayNumber)}>{props.cellValue}</div>
     </React.Fragment>
   );
 }
@@ -22,6 +23,5 @@ Cell.propTypes = {
   cellValue: PropTypes.number,
   displayNumber: PropTypes.number
 };
-
 
 export default Cell;

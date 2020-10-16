@@ -18,27 +18,15 @@ body {
 }
 
 .introduction{
-  background-color: rgb(179, 176, 179);
-  float: left;
-  padding: 20px;
   font-size: 18px;
-  margin: 0px;
-  width: 250px;
 }
 
-#introHeader{
-  width: 250px;
-  height: 98px;
+.introHeader{
   border-bottom: 2px solid rgb(78, 77, 78);
-  text-align: center;
 }
 
 .header{
   background-color: rgb(78, 77, 78);
-  padding-top: 20px;
-  height: 120px;
-  margin: 0px;
-  text-align: center;
   color: white;
 }
 
@@ -47,36 +35,22 @@ body {
   padding-left: 20px;
 }
 
+.main {
+  background-color: white;
+  height: 85vh;
+}
+
 .getNumber{
   background-color: white;
   text-align: center;
   font-size: 25px;
   padding: 10px;
-  margin-left: 290px;
 }
 
 #number{
   font-size: 60px;
   font-weight: bold;
   padding-left: 20px;
-}
-
-/*.cards{
-  background-color: white;
-  margin-left: 290px;
-
-}*/
-
-#start{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  border-radius: 4px;
-  background-color: black;
-  color: white;
-  width: 250px;
-  height: 50px;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 50px;
 }
 
 table {
@@ -95,17 +69,9 @@ table, th, td {
   font-weight: bold;
 }
 
-.card{
-  padding-left: 180px;
-  padding-bottom: 30px;
-  background-color: white;
-  margin-left: 290px;
-}
-
 .image{
   background-color: white;
-  height: 600px;
-  margin-left: 290px;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
