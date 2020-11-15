@@ -8,6 +8,10 @@
 
 Bingo game: You will have two cards with 24 cells on each card. Click on "Next" button to get next random number from 1 to 30. If you fill all cards - you win!
 
+<img src="public/start.png"/><br>
+
+<img src="public/game.png"/><br>
+
 ## Setup/Installation Requirements
 
 * Clone the repository to your desired directory (git clone https://github.com/janecher/bingo.git)
