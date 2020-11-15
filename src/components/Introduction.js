@@ -18,10 +18,7 @@ function Introduction(props){
           <h2>Introduction</h2>
         </div>
         <div className = "p-4">
-          <p>You will have two cards with 24 cells on each card. 
-          Game will run 50 times, randomly choose numbers from 1 to 30 
-          (you will get these numbers also on your card). 
-          For each iteration you will have 10 seconds to search number on your cards.
+          <p>You will have two cards with 24 cells on each card. Click on "Next" button to get next random number from 1 to 30. 
           If you fill all cards - you win!<br/><br/>
           <strong>Good luck!</strong></p>
           {buttonIntro}

@@ -7,19 +7,6 @@ function Card(props){
   return (
     <React.Fragment>
       <div className="pb-5 d-flex justify-content-center">
-        {/* {props.cardData.map((row, index) =>
-          <div className="row" key={index}>
-            {console.log(row)}
-            {
-              row.map((col, j) => 
-                <div key={j} className="col-1">
-                  <Cell cellValue = {col} displayNumber={props.displayNumber}/>
-                </div>
-              )
-            }
-          </div>
-        )}
-      </div> */}
         <table>
           <tbody>
             {
